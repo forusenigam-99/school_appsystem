@@ -17,7 +17,7 @@ class std_8TH(School) :
             },
 
             4: {
-                  "Name": "Deepak"
+                  "Name": "Deepak",
             },
 
             5: {
