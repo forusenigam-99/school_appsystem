@@ -6,23 +6,23 @@ class std_9TH(School) :
         # ALL STUDENT DETAILS     
         self.students = {
             1: {
-                  "Name": "Amit",
+                  "Name": "yudhistir",
             },
 
             2: {
-                  "Name": "Pranjal",
+                  "Name": "bhim",
             },
 
             3: {
-                  "Name": "Manas",
+                  "Name": "arjun",
             },
 
             4: {
-                  "Name": "Rajesh"
+                  "Name": "nakul"
             },
 
             5: {
-                  "Name": "Tapan",
+                  "Name": "sahadev",
             },
         }
         # All student marks in roll number of dictionary
