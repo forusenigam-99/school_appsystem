@@ -6,11 +6,11 @@ class std_10TH(School) :
         # ALL STUDENT DETAILS
         self.students = {
             1: {
-                  "Name": "jogania",
+                  "Name": "ashutosh",
             },
 
             2: {
-                  "Name": "jyoti",
+                  "Name": "inix",
             },
 
             3: {
