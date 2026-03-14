@@ -1,7 +1,6 @@
 # School App System
 
 ## Author
-
 Nigam Gouda
 
 
