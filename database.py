@@ -1,4 +1,4 @@
-import tempCodeRunnerFile
+import mysql_.
 
 # STORE DATA INTO DATABSE 
 def store_database(user_choice_table):
@@ -8,8 +8,8 @@ def store_database(user_choice_table):
     query = f"INSERT INTO {user_choice_table} (instrument,price) VALUE (%s, %s)"  # sql query to store value
     values = (instrument,price) # assign two values in a single variable 
 
-    tempCodeRunnerFile.mycursor.execute(query,values) # execute sql query
-    tempCodeRunnerFile.mydb.commit()
+    mysql_.mycursor.execute(query,values) # execute sql query
+    mysql_.mydb.commit()
     return f"{instrument} details saved successfully"
 
 # ACCESS DATA FROM DATABASE 
@@ -17,9 +17,9 @@ def access_data (user_choice_table):
     instrument = input("Enter instrument name : ")
     query = f"SELECT * FROM {user_choice_table} WHERE instrument = %s"
     values = (instrument,)
-    tempCodeRunnerFile.mycursor.execute(query,values)
+    mysql_.mycursor.execute(query,values)
 
-    result = tempCodeRunnerFile.mycursor.fetchall()
+    result = mysql_.mycursor.fetchall()
     
     for res in result:
         print(res)
